@@ -1,0 +1,12 @@
+
+/* CSS Variables */
+:root {
+    --background-color: #F7E7C9;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+body {
+    background-color: var(--background-color);
+    color: black;
+}
