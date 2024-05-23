@@ -6,7 +6,50 @@
     --black: #000000;
 }
 
+/* Custom Fonts */
+@font-face {
+    font-family: Norse;
+    src: url('/fonts/Norse.otf');
+}
+
+@font-face {
+    font-family: Norsebold;
+    src: url('/fonts/Norsebold.otf');
+}
+
+/* Font Styles */
+.norse-regular {
+    font-family: Norse, sans-serif;
+    font-style: normal;
+}
+
+.norse-bold {
+    font-family: Norsebold, sans-serif;
+    font-style: normal;
+}
+
+/* Body Styles */
 body {
     background-color: var(--background-color);
+    color: black;
+    text-align: center;
+}
+
+/* Main Heading Styles */
+.main-heading {
+    font-size: 100px;
+    animation-name: main-heading-animation;
+    animation-duration: 2s;
+}
+
+/* Main Heading Animation */
+@keyframes main-heading-animation {
+    from {color: rgba(0, 0, 0, 0); }
+    to {color: rgba(0, 0, 0, 1); }
+}
+
+/* Anchor Tag Styles*/
+a {
+    text-decoration: none;
     color: black;
 }
