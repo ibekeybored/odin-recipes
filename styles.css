@@ -9,12 +9,12 @@
 /* Custom Fonts */
 @font-face {
     font-family: Norse;
-    src: url('../odin-recipes/fonts/Norse.otf');
+    src: url('../../odin-recipes/fonts/Norse.otf');
 }
 
 @font-face {
     font-family: Norsebold;
-    src: url('../odin-recipes/fonts/Norsebold.otf');
+    src: url('../../odin-recipes/fonts/Norsebold.otf');
 }
 
 /* Font Styles */
