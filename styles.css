@@ -1,7 +1,7 @@
 
 /* CSS Variables */
 :root {
-    --background-color: #F7E7C9;
+    --blue-gradient: linear-gradient(to bottom right, #0063D5, #00CAF3);
     --white: #ffffff;
     --black: #000000;
 }
@@ -30,7 +30,9 @@
 
 /* Body Styles */
 body {
-    background-color: var(--background-color);
+    background-image: var(--blue-gradient);
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
     color: black;
     text-align: center;
 }
