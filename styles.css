@@ -28,13 +28,14 @@
     font-style: normal;
 }
 
-/* Body Styles */
+/* HTML Styles */
 body {
-    background-image: var(--blue-gradient);
+    background: var(--blue-gradient);
     background-repeat: no-repeat;
     background-attachment: fixed ;
     color: black;
     text-align: center;
+    overflow: hidden;
 }
 
 /* Main Heading Styles */
